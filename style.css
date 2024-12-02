@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+    width: 300px;
+}
+h1{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.label{
+    margin-bottom: 8px;
+    display: block;
+    font-size: 14px
+    color: #500
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    background-color: 4caf50;
+    color: #f4f4f4;
+    border: nome;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botap:hover {
+    background-color: aqua;
+}
+
+.resultado {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: beige;
+}
+
+.aprovado{
+    color: green;
+}
+
+.recuperacao {
+    color: orange;
+}
