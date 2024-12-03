@@ -12,7 +12,7 @@ body{
     height: 100vh;
 }
 .container{
-    background-color: #fff;
+    background-color: #6e6e6e;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
@@ -35,7 +35,7 @@ h1{
     width: 100%;
     padding: 10px;
     background-color: 4caf50;
-    color: #f4f4f4;
+    color: #c50a0a;
     border: nome;
     border-radius: 4px;
     font-size: 16px;
