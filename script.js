@@ -18,8 +18,3 @@ document.getElementById('formulario').addEventListener('submit',function
             resultadoDiv.innerHTML = '<p class="recuperaçao">Recoeração. Sua média foi: ${media.toFixed(2)}</p>';
         }
     });
-
-
-    Aluno(a):________________________________TURMA:______
-
-    Aluno(a):________________________________TURMA:______
