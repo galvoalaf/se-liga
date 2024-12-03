@@ -13,8 +13,8 @@ document.getElementById('formulario').addEventListener('submit',function
         //exibir a mensagem de resultado
         let resultadoDiv = document.getElementById('resultado');
         if (media>=6.0){
-            resultadoDiv.innerHTML = '<p class="aprovado">Aprovado!Sua média foi: ${media.toFixed(2)}</p>';
+            resultadoDiv.innerHTML = `<p class="aprovado">Aprovado!Sua média foi: ${media.toFixed(2)}</p>`;
         } else {
-            resultadoDiv.innerHTML = '<p class="recuperaçao">Recoeração. Sua média foi: ${media.toFixed(2)}</p>';
+            resultadoDiv.innerHTML = `<p class="recuperaçao">Recoeração. Sua média foi: ${media.toFixed(2)}</p>`;
         }
     });
